@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Caveat';
+}
+body{
+    background-color: rgb(37, 195, 239);
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+.input-container input[type = "text"]{
+    width: 70%;
+}
+.input-container input[type = "button"]{
+    background-color: #4ae53f;
+    color: rgb(6, 6, 6);
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.input-container input[type = "button"]:hover{
+    background-color:  #7cf574;
+    box-shadow: 2px 2px 2px 2px rgb(48, 104, 38);
+}
+.input-container input[type = "button"]:active{
+    transform: scale(1.2);
+}
+ul{
+    width: 100%;
+    max-width: 400px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+ul li{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-block-end:12px;
+    border : 0.125px solid grey;
+    padding: 6px 12px;
+    background-color: #f7f8f7;
+    transition: background-color 0.5s;
+}
+ul li:hover{
+    background-color: rgb(205, 196, 196);
+}
+ul li p{
+    font-family:'Amatic SC';
+    flex-grow: 1;
+    padding: 2px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+.del{
+    color: rgb(230, 4, 4);
+    /* padding-right: 3px; */
+
+}
+.edit{
+    color:rgb(43, 142, 58);
+    /* padding-left: 3px; */
+}
+.bottom{
+    height: 2rem;
+    width: 26rem;
+    text-align: center;
+    background-color: #cbd8f5
+}
